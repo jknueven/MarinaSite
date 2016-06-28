@@ -10,7 +10,7 @@
     float: right; }
     .Header ul li {
       display: inline-block;
-      font-size: 14px;
+      font-size: 18px;
       margin-left: 48px;
       margin-bottom: 0px;
       font-family: "Oswald", sans-serif;
@@ -43,3 +43,32 @@
 
 .twitter-timeline {
   float: right; }
+
+footer {
+  text-align: center;
+  border-top: 2px solid #FA6900; }
+  footer .bufferFoot {
+    padding-top: 10px;
+    padding-bottom: 30px;
+    height: 80%; }
+  footer .left {
+    height: 80%;
+    margin-top: 50px; }
+    footer .left p {
+      font-size: 18px; }
+  footer .center {
+    border-left: 2px dotted grey;
+    border-right: 2px dotted grey;
+    margin-top: 40px;
+    height: 210px; }
+    footer .center h3 {
+      font-size: 40px;
+      font-family: "Oswald", sans-serif;
+      margin-top: 45px; }
+    footer .center img {
+      height: 60%;
+      margin-top: -30px; }
+  footer .right {
+    margin-top: 110px; }
+    footer .right p {
+      font-size: 18px; }
