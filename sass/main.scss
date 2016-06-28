@@ -1,0 +1,63 @@
+$primaryColor: #69D2E7;
+$secondaryColor: #FA6900;
+$tertiaryColor:#E0E4CC;
+
+
+.Header {
+	display:inline-block;
+	width:100%;
+	margin:0;
+	border-bottom:1px dotted $secondaryColor;
+	ul {
+		position: relative;
+		top:90px;
+		margin-left:20px;
+		float:right;
+
+		li{
+			display: inline-block;
+			font-size: 14px;
+			margin-left: 48px;
+			margin-bottom: 0px;
+			font-family: "Oswald", sans-serif;
+			text-transform: uppercase;
+
+			a {
+				color:$secondaryColor;
+			}
+		}
+	}
+}
+
+.logo {
+	margin-top:30px;
+	margin-left:40px;
+	display:inline-block;
+	img {
+		height:110px;
+		margin-left: 198px;
+		margin-top: -175px;
+	}
+	.font {
+		//margin-top: -24px;
+		margin-left: -2px;
+
+		h2 {
+			font-size: 28px;
+			width:200px;
+			color:lighten($secondaryColor,10);
+
+		}
+		.subfont {
+			font-size:63px;
+			color: $primaryColor;
+			margin-top: -25px;
+			margin-left: -3px;
+		}
+	}
+}
+
+.content {
+	background-color:$secondaryColor;
+	width:100%;
+}
