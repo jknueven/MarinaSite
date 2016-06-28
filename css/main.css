@@ -44,3 +44,39 @@
 
 .twitter-timeline {
   float: right; }
+  
+img {
+  height: 35%;
+  width: 35%;
+}
+.footer {
+  text-align: center;
+}
+.center {
+  border-left: 2px dotted gray;
+  border-right: 2px dotted gray;
+}
+.content: {
+  display: inline-block;
+}
+.slider {
+  border:2px solid red;
+}
+.infoBox {
+  border:2px solid blue;
+}
+.topContent {
+  display: inline-block;
+}
+#marina {
+  height:100%;
+  width:100%;
+}
+#boat1 {
+  height:100%;
+  width:100%;
+}
+#boat2 {
+  height:100%;
+  width:100%;
+}
