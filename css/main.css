@@ -10,7 +10,7 @@
     float: right; }
     .Header ul li {
       display: inline-block;
-      font-size: 18px;
+      font-size: 24px;
       margin-left: 48px;
       margin-bottom: 0px;
       font-family: "Oswald", sans-serif;
@@ -23,9 +23,9 @@
   margin-left: 40px;
   display: inline-block; }
   .logo img {
-    height: 110px;
+    height: 140px;
     margin-left: 198px;
-    margin-top: -175px; }
+    margin-top: -135px; }
   .logo .font {
     margin-left: -2px; }
     .logo .font h2 {
@@ -41,8 +41,17 @@
 .content {
   width: 100%; }
 
+.slider {
+  margin-top: 40px; }
+
+.infoBox {
+  margin-top: 80px;
+  margin-left: 50px;
+  text-align: center; }
+
 .twitter-timeline {
-  float: right; }
+  float: right;
+  margin-right: 200px; }
 
 footer {
   text-align: center;
@@ -72,3 +81,32 @@ footer {
     margin-top: 110px; }
     footer .right p {
       font-size: 18px; }
+
+.blogWire {
+  display: inline-block; }
+  .blogWire .content {
+    background-color: #69D2E7;
+    height: 300px;
+    border-radius: 7px 7px 7px 7px;
+    margin-top: 10px; }
+  .blogWire .notch {
+    position: absolute;
+    top: 13px;
+    left: -10px;
+    margin: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 10px solid #69D2E7;
+    padding: 0;
+    width: 0;
+    height: 0; }
+  .blogWire .header {
+    margin-top: -10px; }
+    .blogWire .header h3 {
+      border-bottom: 1px solid white;
+      padding-bottom: 15px; }
+  .blogWire .top {
+    padding-top: 10px; }
+    .blogWire .top .bottom {
+      margin-top: 15px;
+      margin-left: 5px; }

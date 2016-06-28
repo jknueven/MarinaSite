@@ -16,7 +16,7 @@ $tertiaryColor:#E0E4CC;
 
 		li{
 			display: inline-block;
-			font-size: 18px;
+			font-size: 24px;
 			margin-left: 48px;
 			margin-bottom: 0px;
 			font-family: "Oswald", sans-serif;
@@ -34,9 +34,9 @@ $tertiaryColor:#E0E4CC;
 	margin-left:40px;
 	display:inline-block;
 	img {
-		height:110px;
+		height:140px;
 		margin-left: 198px;
-		margin-top: -175px;
+		margin-top: -135px;
 	}
 	.font {
 		//margin-top: -24px;
@@ -62,8 +62,19 @@ $tertiaryColor:#E0E4CC;
 	width:100%;
 }
 
+.slider {
+	margin-top:40px;
+}
+
+.infoBox {
+	margin-top:80px;
+	margin-left:50px;
+	text-align:center;
+}
+
 .twitter-timeline {
 	float:right;
+	margin-right: 200px;
 
 }
 
@@ -105,4 +116,44 @@ footer {
 			font-size: 18px;
 		}
 	}
+}
+.blogWire{
+	display:inline-block;
+.content {
+	background-color:$primaryColor;
+	height:300px;
+	border-radius: 7px 7px 7px 7px;
+	margin-top: 10px;
+}
+
+.notch {
+	position: absolute;
+    top: 13px;
+    left: -10px;
+    margin: 0;
+  	border-top: 10px solid transparent;
+ 	border-bottom: 10px solid transparent; 
+  	border-right:10px solid $primaryColor;
+    padding: 0;
+    width: 0;
+    height: 0;
+}
+
+.header {
+	margin-top:-10px;
+
+	h3 {
+	border-bottom:1px solid white;
+  	padding-bottom:15px;}
+}
+
+.top {
+	padding-top:10px;
+	
+	.bottom {
+	margin-top:15px;
+	margin-left:5px;
+	}
+
+}
 }
