@@ -1,5 +1,7 @@
 $(document).ready(function(){ 
 
+$('.bxslider').bxSlider();
+
 $.ajax({
 		url: "https://tiyagencyweek.herokuapp.com/blogs",
 		type:"GET",
