@@ -1,3 +1,51 @@
+.history {
+  margin-top: 20px;
+  margin-left: 40px; }
+  .history .historyImg img {
+    height: 300px;
+    width: auto;
+    border-radius: 3px; }
+
+.ceo {
+  margin-top: 50px; }
+  .ceo .ceoImg img {
+    float: right;
+    height: 170px;
+    width: auto;
+    margin-right: 250px;
+    margin-top: 20px;
+    border: 3px dashed #69D2E7;
+    border-radius: 50%; }
+  .ceo .ceoBio {
+    margin-left: -45px;
+    text-align: center; }
+    .ceo .ceoBio h2 {
+      text-align: center; }
+
+.collab {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px; }
+  .collab h2 {
+    font-size: 28px;
+    color: #ff862e; }
+  .collab .DNR img, .collab .brookvilleLake img, .collab .ainsleyCafe img, .collab .harborLinks img {
+    background-color: #ff862e;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px; }
+  .collab ul li {
+    list-style: none; }
+    .collab ul li h3 {
+      font-family: "Oswald";
+      font-size: 25px;
+      color: #69D2E7; }
+    .collab ul li a {
+      color: #69D2E7; }
+  .collab img {
+    height: 100px;
+    width: auto; }
+
 .Header {
   display: inline-block;
   width: 100%;
