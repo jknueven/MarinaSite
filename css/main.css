@@ -39,12 +39,39 @@
     .collab ul li h3 {
       font-family: "Oswald";
       font-size: 25px;
-      color: #69D2E7; }
+      color: #FA6900; }
     .collab ul li a {
       color: #69D2E7; }
   .collab img {
     height: 100px;
     width: auto; }
+
+h2 {
+  color: #FA6900; }
+
+.btn-default {
+  background-color: #69D2E7;
+  color: white; }
+  .btn-default a:hover {
+    background-color: #FA6900;
+    color: white; }
+
+.productLine {
+  margin-left: 270px; }
+  .productLine ul li {
+    margin-left: 30px;
+    display: inline-block; }
+    .productLine ul li button {
+      margin-top: -10px; }
+
+.Products .boat1 img, .Products .boat2 img, .Products .boat3 img, .Products .boat4 img {
+  height: 200px;
+  width: auto;
+  border-radius: 3px; }
+
+.Products ul li {
+  list-style: none;
+  margin-top: 10px; }
 
 .Header {
   display: inline-block;
@@ -158,8 +185,3 @@ footer {
     .blogWire .top .bottom {
       margin-top: 15px;
       margin-left: 5px; }
-
-.largetext {
-  height: 400px;
-  width: 400px;
-}
