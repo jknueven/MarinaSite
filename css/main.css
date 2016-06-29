@@ -158,3 +158,8 @@ footer {
     .blogWire .top .bottom {
       margin-top: 15px;
       margin-left: 5px; }
+
+.largetext {
+  height: 400px;
+  width: 400px;
+}
