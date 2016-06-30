@@ -95,29 +95,37 @@ label {
   margin-top: 5px; }
 
 .content {
-  background-color: #FA6900;
-  height: 300px;
+  background-color: #ff862e;
+  height: 250px;
   border-radius: 5px;
-  margin-top: 10px; }
+  margin-top: 10px;
+  margin-left: 50px;
+  margin-bottom: 30px; }
 
 .notch {
   position: absolute;
-  top: 13px;
-  left: -10px;
+  top: 21px;
+  left: -20px;
   margin: 0;
-  border-top: 10px solid transparent;
-  border-bottom: 10px solid transparent;
-  border-right: 10px solid #FA6900;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  border-right: 20px solid #FA6900;
   padding: 0;
   width: 0;
   height: 0; }
 
 .header {
-  margin-top: -10px; }
+  margin-top: -10px;
+  display: inline-block; }
   .header h3 {
     border-bottom: 1px solid white;
     padding-bottom: 15px;
     color: white; }
+  .header h4 {
+    color: white;
+    opacity: 0.5;
+    float: right;
+    margin-top: -50px; }
 
 .top {
   padding-top: 10px; }
@@ -125,6 +133,9 @@ label {
     margin-top: 15px;
     margin-left: 5px;
     color: white; }
+
+.blog {
+  color: white; }
 
 .Header {
   display: inline-block;
@@ -215,31 +226,40 @@ footer {
 .blogWire {
   display: inline-block; }
   .blogWire .content {
-    background-color: #69D2E7;
-    height: 300px;
-    border-radius: 7px 7px 7px 7px;
-    margin-top: 10px; }
+    background-color: #ff862e;
+    height: 250px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-bottom: 30px; }
   .blogWire .notch {
     position: absolute;
-    top: 13px;
-    left: -10px;
+    top: 21px;
+    left: -20px;
     margin: 0;
-    border-top: 10px solid transparent;
-    border-bottom: 10px solid transparent;
-    border-right: 10px solid #69D2E7;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid #FA6900;
     padding: 0;
     width: 0;
     height: 0; }
   .blogWire .header {
     margin-top: -10px;
-    color: white; }
+    display: inline-block; }
     .blogWire .header h3 {
       border-bottom: 1px solid white;
-      padding-bottom: 15px; }
+      padding-bottom: 15px;
+      color: white; }
+    .blogWire .header h4 {
+      color: white;
+      opacity: 0.5;
+      float: right;
+      margin-top: -50px; }
   .blogWire .top {
     padding-top: 10px; }
     .blogWire .top .bottom {
       margin-top: 15px;
+<<<<<<< HEAD
       margin-left: 5px; }
 
 #map {
@@ -272,3 +292,26 @@ form {
 .facebookIcon {
   height: 30px;
   width: 30px; }
+=======
+      margin-left: 5px;
+      color: white; }
+  .blogWire .blog {
+    color: white; }
+  .blogWire #map {
+    height: 400px;
+    width: 600px; }
+  .blogWire .Dallas {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 80px; }
+  .blogWire .Contact {
+    margin-top: 20px;
+    margin-bottom: 20px; }
+  .blogWire form {
+    text-align: center; }
+  .blogWire #blogTitle {
+    width: 400px; }
+  .blogWire #blogContent {
+    height: 200px;
+    width: 800px; }
+>>>>>>> e07c9028d72a3da99c2be26f1173cab2e71fb687

@@ -128,21 +128,24 @@ footer {
 }
 .blogWire{
 	display:inline-block;
-.content {
-	background-color:$primaryColor;
-	height:300px;
-	border-radius: 7px 7px 7px 7px;
+
+.content{
+	background-color:lighten($secondaryColor,10);
+	height:250px;
+	border-radius: 5px;
 	margin-top: 10px;
+	margin-left:50px;
+	margin-bottom: 30px;
 }
 
 .notch {
 	position: absolute;
-    top: 13px;
-    left: -10px;
+    top: 21px;
+    left: -20px;
     margin: 0;
-  	border-top: 10px solid transparent;
- 	border-bottom: 10px solid transparent; 
-  	border-right:10px solid $primaryColor;
+  	border-top: 20px solid transparent;
+ 	border-bottom: 20px solid transparent; 
+  	border-right:20px solid $secondaryColor;
     padding: 0;
     width: 0;
     height: 0;
@@ -150,11 +153,20 @@ footer {
 
 .header {
 	margin-top:-10px;
-
+	display: inline-block;
+	
 	h3 {
-	border-bottom:1px solid white;
-  	padding-bottom:15px;}
-  	color:white;
+		border-bottom:1px solid white;
+  		padding-bottom:15px;
+  		color: white;
+   		}
+
+   	h4 {
+   		color: white;
+   		opacity: 0.5;
+   		float:right;
+   		margin-top: -50px;
+   	}
 }
 
 .top {
@@ -163,9 +175,13 @@ footer {
 	.bottom {
 	margin-top:15px;
 	margin-left:5px;
+	color:white;
 	}
-
 }
+
+.blog {
+
+	color:white;
 }
 
 #map {
@@ -194,6 +210,7 @@ form {
   height: 200px;
   width:800px;
 }
+<<<<<<< HEAD
 .twitterIcon {
   height:30px;
   width:30px;
@@ -201,4 +218,6 @@ form {
 .facebookIcon {
   height:30px;
   width:30px;
+=======
+>>>>>>> e07c9028d72a3da99c2be26f1173cab2e71fb687
 }
