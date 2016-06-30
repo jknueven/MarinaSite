@@ -116,20 +116,21 @@ h2 {
       margin-top: -25px;
       margin-left: -3px; }
 
-.content {
-  width: 100%; }
+.middleContent {
+  width: 100%;
+  margin-top: 50px; }
 
 .slider {
   margin-top: 40px; }
 
 .infoBox {
-  margin-top: 80px;
+  margin-top: 50px;
   margin-left: 50px;
   text-align: center; }
 
 .twitter-timeline {
   float: right;
-  margin-right: 200px; }
+  margin-right: 170px; }
 
 footer {
   text-align: center;

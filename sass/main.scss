@@ -25,7 +25,7 @@ $tertiaryColor:#E0E4CC;
 			margin-bottom: 0px;
 			font-family: "Oswald", sans-serif;
 			text-transform: uppercase;
-			
+
 
 			a {
 				color:$secondaryColor;
@@ -62,9 +62,10 @@ $tertiaryColor:#E0E4CC;
 	}
 }
 
-.content {
+.middleContent {
 	//background-color:$secondaryColor;
 	width:100%;
+	margin-top:50px;
 }
 
 .slider {
@@ -72,14 +73,15 @@ $tertiaryColor:#E0E4CC;
 }
 
 .infoBox {
-	margin-top:80px;
+	margin-top:50px;
 	margin-left:50px;
 	text-align:center;
 }
 
+
 .twitter-timeline {
 	float:right;
-	margin-right: 200px;
+	margin-right: 170px;
 
 }
 
