@@ -23,20 +23,22 @@ label {
 }
 
 .content{
-	background-color:$secondaryColor;
-	height:300px;
+	background-color:lighten($secondaryColor,10);
+	height:250px;
 	border-radius: 5px;
 	margin-top: 10px;
+	margin-left:50px;
+	margin-bottom: 30px;
 }
 
 .notch {
 	position: absolute;
-    top: 13px;
-    left: -10px;
+    top: 21px;
+    left: -20px;
     margin: 0;
-  	border-top: 10px solid transparent;
- 	border-bottom: 10px solid transparent; 
-  	border-right:10px solid $secondaryColor;
+  	border-top: 20px solid transparent;
+ 	border-bottom: 20px solid transparent; 
+  	border-right:20px solid $secondaryColor;
     padding: 0;
     width: 0;
     height: 0;
@@ -44,12 +46,20 @@ label {
 
 .header {
 	margin-top:-10px;
-
+	display: inline-block;
+	
 	h3 {
-	border-bottom:1px solid white;
-  	padding-bottom:15px;
-  	color: white;
-    }
+		border-bottom:1px solid white;
+  		padding-bottom:15px;
+  		color: white;
+   		}
+
+   	h4 {
+   		color: white;
+   		opacity: 0.5;
+   		float:right;
+   		margin-top: -50px;
+   	}
 }
 
 .top {
@@ -60,6 +70,9 @@ label {
 	margin-left:5px;
 	color:white;
 	}
+}
 
+.blog {
 
+	color:white;
 }

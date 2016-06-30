@@ -9,6 +9,11 @@ $.ajax({
 		success: function(blogs)
 		{
 			console.log(blogs);
+			var position = blogs.blogs.length - 1;
+			var lastBlog = blogs.blogs[position];
+			var updated = moment(lastBlog.posted).fromNow();
+
+			$(".blogcontent").append("<div class='col-lg-9 col-md-9 col-sm-12 content'><b class='notch'></b><div class='row top'><div class='col-lg-12 col-md-12 header'><h3>"+lastBlog.title+"</h3><h4>"+updated+"</h4></div></div><div class='row bottom'><div class='col-lg-12 col-md-12 blog'><p>"+lastBlog.description+"</p></div></div></div>");
 		}
 	});
 
@@ -18,6 +23,8 @@ $.ajax({
 		success: function(boats)
 		{
 			console.log(boats);
+
+
 		}
 	});
 
