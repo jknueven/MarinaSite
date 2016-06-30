@@ -253,3 +253,13 @@ footer {
 .Contact {
   margin-top: 20px;
   margin-bottom: 20px; }
+
+form {
+  text-align: center; }
+
+#blogTitle {
+  width: 400px; }
+
+#blogContent {
+  height: 200px;
+  width: 800px; }

@@ -1,5 +1,12 @@
 $(document).ready(function(){ 
 
+$(".window" or ".body").on("Load", function() {
+	getItem(login.token) {
+		if (login.token === null) {
+			window.location.replace("/blog.html")
+		}
+	}
+};
 $(".blogForm").on("submit", function(e){
 		e.preventDefault();
 		var title = $("#blogTitle").val();
