@@ -1,0 +1,65 @@
+label {
+	margin-top: 10px;
+	color:$primaryColor;
+
+	h3 {
+		color:$secondaryColor;
+	}
+}
+
+.btn-lg {
+	float:right;
+	margin-right:100px;
+	margin-top:-50px;
+}
+
+.login button {
+	margin-top:20px;
+}
+
+.Password input, .Username input {
+	width:50%;
+	margin-top:5px;
+}
+
+.content{
+	background-color:$secondaryColor;
+	height:300px;
+	border-radius: 5px;
+	margin-top: 10px;
+}
+
+.notch {
+	position: absolute;
+    top: 13px;
+    left: -10px;
+    margin: 0;
+  	border-top: 10px solid transparent;
+ 	border-bottom: 10px solid transparent; 
+  	border-right:10px solid $secondaryColor;
+    padding: 0;
+    width: 0;
+    height: 0;
+}
+
+.header {
+	margin-top:-10px;
+
+	h3 {
+	border-bottom:1px solid white;
+  	padding-bottom:15px;
+  	color: white;
+    }
+}
+
+.top {
+	padding-top:10px;
+	
+	.bottom {
+	margin-top:15px;
+	margin-left:5px;
+	color:white;
+	}
+
+
+}

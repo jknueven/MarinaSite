@@ -6,6 +6,8 @@ $tertiaryColor:#E0E4CC;
 
 @import "product";
 
+@import "blog";
+
 
 .Header {
 	display:inline-block;
@@ -152,6 +154,7 @@ footer {
 	h3 {
 	border-bottom:1px solid white;
   	padding-bottom:15px;}
+  	color:white;
 }
 
 .top {
@@ -175,6 +178,7 @@ footer {
   text-align: center;
   margin-top: 80px;
 }
+
 .Contact {
   margin-top: 20px;
   margin-bottom: 20px;

@@ -76,6 +76,56 @@ h2 {
     margin-top: 10px;
     width: auto; }
 
+label {
+  margin-top: 10px;
+  color: #69D2E7; }
+  label h3 {
+    color: #FA6900; }
+
+.btn-lg {
+  float: right;
+  margin-right: 100px;
+  margin-top: -50px; }
+
+.login button {
+  margin-top: 20px; }
+
+.Password input, .Username input {
+  width: 50%;
+  margin-top: 5px; }
+
+.content {
+  background-color: #FA6900;
+  height: 300px;
+  border-radius: 5px;
+  margin-top: 10px; }
+
+.notch {
+  position: absolute;
+  top: 13px;
+  left: -10px;
+  margin: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-right: 10px solid #FA6900;
+  padding: 0;
+  width: 0;
+  height: 0; }
+
+.header {
+  margin-top: -10px; }
+  .header h3 {
+    border-bottom: 1px solid white;
+    padding-bottom: 15px;
+    color: white; }
+
+.top {
+  padding-top: 10px; }
+  .top .bottom {
+    margin-top: 15px;
+    margin-left: 5px;
+    color: white; }
+
 .Header {
   display: inline-block;
   width: 100%;
@@ -180,7 +230,8 @@ footer {
     width: 0;
     height: 0; }
   .blogWire .header {
-    margin-top: -10px; }
+    margin-top: -10px;
+    color: white; }
     .blogWire .header h3 {
       border-bottom: 1px solid white;
       padding-bottom: 15px; }
