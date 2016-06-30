@@ -187,18 +187,4 @@ footer {
     padding-top: 10px; }
     .blogWire .top .bottom {
       margin-top: 15px;
-      margin-left: 5px; 
-    }
-#map {
-  height: 400px;
-  width:600px;
-}
-.Dallas {
-  font-size: 18px;
-  text-align: center;
-  margin-top: 80px;
-}
-.Contact {
-  margin-top:10px;
-  margin-bottom:20px;
-}
+      margin-left: 5px; }
