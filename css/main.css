@@ -69,9 +69,12 @@ h2 {
   width: auto;
   border-radius: 3px; }
 
-.Products ul li {
-  list-style: none;
-  margin-top: 10px; }
+.Products ul {
+  padding: 0; }
+  .Products ul li {
+    list-style: none;
+    margin-top: 10px;
+    width: auto; }
 
 .Header {
   display: inline-block;
@@ -185,22 +188,3 @@ footer {
     .blogWire .top .bottom {
       margin-top: 15px;
       margin-left: 5px; }
-
-
-#map {
-  height: 300px;
-  width: 600px;
-}
-.Dallas {
-  text-align: center;
-  margin-top: 50px;
-  font-size: 18px;
-
-}
-#weatherWidget {
-  text-align: center;
-}
-
-
-
-

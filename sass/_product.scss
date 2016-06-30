@@ -33,9 +33,11 @@ h2 {
 		border-radius: 3px;
 	}
 	ul {
+		padding: 0;
 		li{
 			list-style: none;
 			margin-top: 10px;
+			width: auto;
 		}
 	}
 }
