@@ -1,8 +1,24 @@
 $(document).ready(function(){ 
 
 
-
 $.ajax({
+		url: "https://tiyagencyweek.herokuapp.com/boats",
+		type:"GET",
+		success: function(boats)
+		{
+			var results = boats.boats;
+			results.forEach(function(boat){
+
+				
+
+				$(".Products").append("<div class='col-lg-6 boat"+boat+"'><div class='wrapper"+boat+"'><img src='"+boat.picture+"'><ul><li>Name: "+boat.name+"</li><li>Description: "+boat.description+"</li><li>Price: $ "+boat.price+"</li></ul></div></div>")
+
+			})
+		}
+
+	});
+
+/*$.ajax({
 		url: "https://tiyagencyweek.herokuapp.com/boats",
 		type:"GET",
 		success: function(boats)
@@ -24,6 +40,6 @@ $.ajax({
 			$(".boat4").append("<div class='wrapper1'><img src='"+rmb2017.picture+"'><ul><li>Name: "+rmb2017.name+"</li><li>Description: "+rmb2017.description+"</li><li>Price: $ "+pricepoint4+"</li></ul></div");
 		
 		}
-	});
+	});*/
 
 });

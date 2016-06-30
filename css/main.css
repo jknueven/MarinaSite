@@ -64,7 +64,7 @@ h2 {
     .productLine ul li button {
       margin-top: -10px; }
 
-.Products .boat1 img, .Products .boat2 img, .Products .boat3 img, .Products .boat4 img {
+.Products img {
   height: 200px;
   width: auto;
   border-radius: 3px; }
