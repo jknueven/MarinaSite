@@ -1,6 +1,7 @@
 $primaryColor: #69D2E7;
 $secondaryColor: #FA6900;
 $tertiaryColor:#E0E4CC;
+$quadraryColor:#A7DBD8;
 
 @import "about";
 
@@ -22,7 +23,7 @@ $tertiaryColor:#E0E4CC;
 
 		li{
 			display: inline-block;
-			font-size: 24px;
+			font-size: 26px;
 			margin-left: 48px;
 			margin-bottom: 0px;
 			font-family: "Oswald", sans-serif;
@@ -34,6 +35,14 @@ $tertiaryColor:#E0E4CC;
 			}
 		}
 	}
+}
+
+.container {
+	//padding-left:20px;
+}
+
+.topContent {
+	margin-left:140px;
 }
 
 .logo {
@@ -71,19 +80,52 @@ $tertiaryColor:#E0E4CC;
 }
 
 .slider {
-	margin-top:40px;
+	margin-top:60px;
+	
 }
 
+
 .infoBox {
-	margin-top:50px;
+	margin-top:35px;
 	margin-left:50px;
 	text-align:center;
+
+	h1{
+		font-size: 48px;
+		color: $secondaryColor;
+	}
+
+	p {
+		font-size: 20px;
+		text-align: right;
+		margin-top:-10px;
+	}
+
+	.purchase {
+		height:40px;
+		//width: 100px;
+		float:right;
+		border-radius:3px;
+		background-color:$quadraryColor;
+
+		h3 {
+			font-size: 16px;
+			margin-top: 1px;
+		}
+
+		a {
+			color: white;
+		}
+
+	}
+
 }
 
 
 .twitter-timeline {
 	float:right;
 	margin-right: 170px;
+	
 
 }
 
@@ -94,12 +136,17 @@ footer {
 		padding-top: 10px; 
 		padding-bottom:30px;
 		height:80%;
+		width:auto;
 	}
 	.left {
 		height:80%;
-		margin-top: 50px;
+		margin-top: 20px;
+		h3 {
+			color:$secondaryColor;
+		}
 		p{
 			font-size: 18px;
+			color:darken($primaryColor,20);
 		}
 	}
 
@@ -108,30 +155,70 @@ footer {
 		border-right:2px dotted grey;
 		margin-top: 40px;
 		height:210px;
-		h3 {
+		padding-left:20px;
+		padding-right:20px;
+
+		.font {
 			font-size: 40px; 
-			font-family: "Oswald", sans-serif;
-			margin-top: 45px;
+			//font-family: "Oswald", sans-serif;
+			margin-top: 60px;
+			margin-left: 130px;
+		}
+		.subfont {
+			font-size:63px;
+			color: $primaryColor;
+			margin-top: -25px;
+			margin-left: -3px;
 		}
 		img {
 			height:60%;
 			//width: 35%;
-			margin-top: -30px;
+			margin-top:-130px;
+			margin-right:-2px;
+
 		}
 	}
 	.right {
-		margin-top: 110px;
+		margin-top: 90px;
 		p{
 			font-size: 18px;
 		}
+		.socialFoot{
+			margin-right:190px;
+		}
+		.twitterIcon, .facebookIcon {
+			margin-top: 0px;
+			margin-left: 5px;
+			margin-right: 0px;
+		}
 	}
+	
 }
+
+
+
+.blogcontent {
+	margin-left:90px;
+
+}
+.blogButton {
+	position:absolute;
+	bottom:-20px;
+	right:40px;
+	height:40px;
+	background-color:$quadraryColor;
+	//height:40px;
+	//border-radius:5px;
+	}
+
 .blogWire{
-	display:inline-block;
+	//display:inline-block;
+}
 
 .content{
 	background-color:lighten($secondaryColor,10);
 	height:250px;
+	width:92%;
 	border-radius: 5px;
 	margin-top: 10px;
 	margin-left:50px;
@@ -155,11 +242,6 @@ footer {
 	margin-top:-10px;
 	display: inline-block;
 
-	a {
-		float:right;
-		margin-top: -50px;
-		margin-right: 100px;
-	}
 	
 	h3 {
 		border-bottom:1px solid white;
@@ -217,12 +299,8 @@ form {
   width:800px;
 }
 
-.twitterIcon {
+.twitterIcon, .facebookIcon {
   height:30px;
   width:30px;
-}
-.facebookIcon {
-  height:30px;
-  width:30px;
-}
+  //margin-left: 30px;
 }

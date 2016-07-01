@@ -160,13 +160,16 @@ label {
     float: right; }
     .Header ul li {
       display: inline-block;
-      font-size: 24px;
+      font-size: 26px;
       margin-left: 48px;
       margin-bottom: 0px;
       font-family: "Oswald", sans-serif;
       text-transform: uppercase; }
       .Header ul li a {
         color: #FA6900; }
+
+.topContent {
+  margin-left: 140px; }
 
 .logo {
   margin-top: 30px;
@@ -193,12 +196,29 @@ label {
   margin-top: 50px; }
 
 .slider {
-  margin-top: 40px; }
+  margin-top: 60px; }
 
 .infoBox {
-  margin-top: 50px;
+  margin-top: 35px;
   margin-left: 50px;
   text-align: center; }
+  .infoBox h1 {
+    font-size: 48px;
+    color: #FA6900; }
+  .infoBox p {
+    font-size: 20px;
+    text-align: right;
+    margin-top: -10px; }
+  .infoBox .purchase {
+    height: 40px;
+    float: right;
+    border-radius: 3px;
+    background-color: #A7DBD8; }
+    .infoBox .purchase h3 {
+      font-size: 16px;
+      margin-top: 1px; }
+    .infoBox .purchase a {
+      color: white; }
 
 .twitter-timeline {
   float: right;
@@ -210,93 +230,124 @@ footer {
   footer .bufferFoot {
     padding-top: 10px;
     padding-bottom: 30px;
-    height: 80%; }
+    height: 80%;
+    width: auto; }
   footer .left {
     height: 80%;
-    margin-top: 50px; }
+    margin-top: 20px; }
+    footer .left h3 {
+      color: #FA6900; }
     footer .left p {
-      font-size: 18px; }
+      font-size: 18px;
+      color: #20adca; }
   footer .center {
     border-left: 2px dotted grey;
     border-right: 2px dotted grey;
     margin-top: 40px;
-    height: 210px; }
-    footer .center h3 {
+    height: 210px;
+    padding-left: 20px;
+    padding-right: 20px; }
+    footer .center .font {
       font-size: 40px;
-      font-family: "Oswald", sans-serif;
-      margin-top: 45px; }
+      margin-top: 60px;
+      margin-left: 130px; }
+    footer .center .subfont {
+      font-size: 63px;
+      color: #69D2E7;
+      margin-top: -25px;
+      margin-left: -3px; }
     footer .center img {
       height: 60%;
-      margin-top: -30px; }
+      margin-top: -130px;
+      margin-right: -2px; }
   footer .right {
-    margin-top: 110px; }
+    margin-top: 90px; }
     footer .right p {
       font-size: 18px; }
-
-.blogWire {
-  display: inline-block; }
-  .blogWire .content {
-    background-color: #ff862e;
-    height: 250px;
-    border-radius: 5px;
-    margin-top: 10px;
-    margin-left: 50px;
-    margin-bottom: 30px; }
-  .blogWire .notch {
-    position: absolute;
-    top: 21px;
-    left: -20px;
-    margin: 0;
-    border-top: 20px solid transparent;
-    border-bottom: 20px solid transparent;
-    border-right: 20px solid #FA6900;
-    padding: 0;
-    width: 0;
-    height: 0; }
-  .blogWire .header {
-    margin-top: -10px;
-    display: inline-block; }
-    .blogWire .header a {
-      float: right;
-      margin-top: -50px;
-      margin-right: 100px; }
-    .blogWire .header h3 {
-      border-bottom: 1px solid white;
-      padding-bottom: 15px;
-      color: white; }
-    .blogWire .header h4 {
-      color: white;
-      opacity: 0.5;
-      float: right;
-      margin-top: -50px; }
-  .blogWire .top {
-    padding-top: 10px; }
-    .blogWire .top .bottom {
-      margin-top: 15px;
+    footer .right .socialFoot {
+      margin-right: 190px; }
+    footer .right .twitterIcon, footer .right .facebookIcon {
+      margin-top: 0px;
       margin-left: 5px;
-      color: white; }
-  .blogWire .blog {
+      margin-right: 0px; }
+
+.blogcontent {
+  margin-left: 90px; }
+
+.blogButton {
+  position: absolute;
+  bottom: -20px;
+  right: 40px;
+  height: 40px;
+  background-color: #A7DBD8; }
+
+.content {
+  background-color: #ff862e;
+  height: 250px;
+  width: 92%;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-left: 50px;
+  margin-bottom: 30px; }
+
+.notch {
+  position: absolute;
+  top: 21px;
+  left: -20px;
+  margin: 0;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  border-right: 20px solid #FA6900;
+  padding: 0;
+  width: 0;
+  height: 0; }
+
+.header {
+  margin-top: -10px;
+  display: inline-block; }
+  .header h3 {
+    border-bottom: 1px solid white;
+    padding-bottom: 15px;
     color: white; }
-  .blogWire #map {
-    height: 400px;
-    width: 600px; }
-  .blogWire .Dallas {
-    font-size: 18px;
-    text-align: center;
-    margin-top: 80px; }
-  .blogWire .Contact {
-    margin-top: 20px;
-    margin-bottom: 20px; }
-  .blogWire form {
-    text-align: center; }
-  .blogWire #blogTitle {
-    width: 400px; }
-  .blogWire #blogContent {
-    height: 200px;
-    width: 800px; }
-  .blogWire .twitterIcon {
-    height: 30px;
-    width: 30px; }
-  .blogWire .facebookIcon {
-    height: 30px;
-    width: 30px; }
+  .header h4 {
+    color: white;
+    opacity: 0.5;
+    float: right;
+    margin-top: -50px; }
+
+.top {
+  padding-top: 10px; }
+  .top .bottom {
+    margin-top: 15px;
+    margin-left: 5px;
+    color: white; }
+
+.blog {
+  color: white; }
+
+#map {
+  height: 400px;
+  width: 600px; }
+
+.Dallas {
+  font-size: 18px;
+  text-align: center;
+  margin-top: 80px; }
+
+.Contact {
+  margin-top: 20px;
+  margin-bottom: 20px; }
+
+form {
+  text-align: center; }
+
+#blogTitle {
+  width: 400px; }
+
+#blogContent {
+  height: 200px;
+  width: 800px; }
+
+.twitterIcon, .facebookIcon {
+  height: 30px;
+  width: 30px; }
