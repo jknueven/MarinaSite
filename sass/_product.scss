@@ -13,7 +13,8 @@ h2 {
 }
 
 .productLine {
-	margin-left:270px;
+	text-align:center;
+	margin-left:-80px;
 	ul{
 		li {
 		margin-left: 30px;
@@ -27,10 +28,12 @@ h2 {
 
 .Products {
 	img {
-		height: 200px;
+		height: 250px;
 		width: auto;
 		//margin-left: 40px;
 		border-radius: 3px;
+		margin:auto;
+		display:block;
 	}
 	ul {
 		padding: 0;
@@ -38,7 +41,14 @@ h2 {
 			list-style: none;
 			margin-top: 10px;
 			width: auto;
+		p {
+			font-size:23px;
 		}
+		h4 {
+			font-size:30px;
+		}
+		}
+
 	}
 }
 

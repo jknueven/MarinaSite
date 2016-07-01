@@ -1,26 +1,34 @@
 .history {
   margin-top: 20px;
-  margin-left: 40px; }
+  margin-left: 250px; }
   .history .historyImg img {
-    height: 300px;
+    height: 400px;
     width: auto;
-    border-radius: 3px; }
+    border-radius: 3px;
+    margin-top: 20px; }
+  .history p {
+    font-size: 23px; }
 
 .ceo {
-  margin-top: 50px; }
+  margin-top: 50px;
+  margin-bottom: 80px; }
   .ceo .ceoImg img {
     float: right;
-    height: 170px;
+    height: 250px;
     width: auto;
-    margin-right: 250px;
+    margin-right: 150px;
     margin-top: 20px;
     border: 3px dashed #FA6900;
     border-radius: 50%; }
   .ceo .ceoBio {
-    margin-left: -45px;
+    margin-left: -25px;
     text-align: center; }
+    .ceo .ceoBio p {
+      text-align: left;
+      font-size: 23px;
+      width: 90%; }
     .ceo .ceoBio h2 {
-      text-align: center; }
+      text-align: left; }
 
 .collab {
   text-align: center;
@@ -45,6 +53,41 @@
   .collab img {
     height: 100px;
     width: auto; }
+  .collab p {
+    font-size: 23px; }
+
+.Bayliner img, .Stingray img, .SabreYachts img, .Searay img {
+  background-color: #ff862e;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 10px; }
+
+ul li {
+  list-style: none;
+  text-align: center; }
+  ul li h3 {
+    font-family: "Oswald";
+    font-size: 25px;
+    color: #FA6900; }
+  ul li a {
+    color: #69D2E7; }
+
+img {
+  height: 100px;
+  width: auto; }
+
+.Searay img {
+  width: 50%; }
+
+.Companies {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px; }
+  .Companies h3 {
+    font-size: 25px;
+    color: #ff862e; }
+  .Companies p {
+    font-size: 23px; }
 
 h2 {
   color: #FA6900; }
@@ -57,7 +100,8 @@ h2 {
     color: white; }
 
 .productLine {
-  margin-left: 270px; }
+  text-align: center;
+  margin-left: -80px; }
   .productLine ul li {
     margin-left: 30px;
     display: inline-block; }
@@ -65,9 +109,11 @@ h2 {
       margin-top: -10px; }
 
 .Products img {
-  height: 200px;
+  height: 250px;
   width: auto;
-  border-radius: 3px; }
+  border-radius: 3px;
+  margin: auto;
+  display: block; }
 
 .Products ul {
   padding: 0; }
@@ -75,6 +121,10 @@ h2 {
     list-style: none;
     margin-top: 10px;
     width: auto; }
+    .Products ul li p {
+      font-size: 23px; }
+    .Products ul li h4 {
+      font-size: 30px; }
 
 label {
   margin-top: 10px;
@@ -84,7 +134,7 @@ label {
 
 .btn-lg {
   float: right;
-  margin-right: 100px;
+  margin-right: 145px;
   margin-top: -50px; }
 
 .login button {
@@ -94,7 +144,7 @@ label {
   width: 50%;
   margin-top: 5px; }
 
-.content {
+.contentB {
   background-color: #ff862e;
   height: 250px;
   border-radius: 5px;
@@ -322,21 +372,42 @@ footer {
     margin-left: 5px;
     color: white; }
 
+.emailForm {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  margin-left: -50px; }
+  .emailForm textarea {
+    width: 300px;
+    height: 80px; }
+
 .blog {
   color: white; }
 
 #map {
   height: 400px;
-  width: 600px; }
+  width: 800px;
+  margin-top: 25px;
+  margin-bottom: 30px;
+  margin-right: 90px; }
 
 .Dallas {
   font-size: 18px;
   text-align: center;
-  margin-top: 80px; }
+  margin-top: 45px; }
+  .Dallas i {
+    margin-top: 5px;
+    font-size: 20px;
+    color: #FA6900; }
+  .Dallas p {
+    font-size: 20px; }
+  .Dallas h3 {
+    font-size: 26px;
+    margin-top: 10px; }
 
 .Contact {
   margin-top: 20px;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  margin-left: 70px; }
 
 form {
   text-align: center; }
