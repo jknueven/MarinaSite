@@ -1,11 +1,12 @@
 .history {
   margin-top: 20px;
-  margin-left: 250px; }
+  margin-left: 160px; }
   .history .historyImg img {
     height: 400px;
     width: auto;
     border-radius: 3px;
-    margin-top: 20px; }
+    margin-top: 20px;
+    margin-left: 80px; }
   .history p {
     font-size: 23px; }
 
@@ -124,7 +125,10 @@ h2 {
     .Products ul li p {
       font-size: 23px; }
     .Products ul li h4 {
-      font-size: 30px; }
+      font-size: 30px;
+      color: #69D2E7; }
+    .Products ul li h5 {
+      font-size: 26px; }
 
 label {
   margin-top: 10px;
@@ -198,6 +202,9 @@ label {
 .twitterIcon {
   margin-right: 110px; }
 
+.container {
+  width: 990px; }
+
 .Header {
   display: inline-block;
   width: 100%;
@@ -218,7 +225,7 @@ label {
       .Header ul li a {
         color: #FA6900; }
 
-.topContent {
+.topContent .slider {
   margin-left: 140px; }
 
 .logo {
@@ -243,10 +250,19 @@ label {
 
 .middleContent {
   width: 100%;
-  margin-top: 50px; }
+  margin-top: 80px; }
 
 .slider {
-  margin-top: 60px; }
+  height: 400px;
+  margin-top: 40px; }
+  .slider img {
+    height: 400px; }
+  .slider .bx-viewport {
+    height: 400px;
+    style: none; }
+
+.bx-wrapper {
+  height: 400px; }
 
 .infoBox {
   margin-top: 35px;
@@ -276,14 +292,13 @@ label {
 
 footer {
   text-align: center;
-  border-top: 2px solid #FA6900; }
+  border-top: 2px solid #FA6900;
+  height: 200px; }
   footer .bufferFoot {
     padding-top: 10px;
     padding-bottom: 30px;
-    height: 80%;
     width: auto; }
   footer .left {
-    height: 80%;
     margin-top: 20px; }
     footer .left h3 {
       color: #FA6900; }
@@ -418,6 +433,44 @@ form {
 #blogContent {
   height: 200px;
   width: 800px; }
+
+.widgetWe {
+  display: block;
+  margin: auto;
+  float: right;
+  margin-right: 90px;
+  margin-top: 10px; }
+
+.aw-widget-content {
+  height: 150px;
+  width: 180px; }
+
+.aw-temp-time-desc {
+  margin-left: 30px; }
+
+#link_get_widget {
+  display: none; }
+
+.aw-current-weather-inner {
+  height: 120px;
+  width: 120px; }
+  .aw-current-weather-inner span {
+    display: none; }
+  .aw-current-weather-inner p {
+    visibility: hidden; }
+
+.aw-icon {
+  position: absolute;
+  left: -40px; }
+
+.aw-temperature-today {
+  visibility: visible;
+  position: absolute;
+  top: 60px;
+  left: 70px; }
+
+.aw-widget-current-inner {
+  width: 120px; }
 
 .twitterIcon, .facebookIcon {
   height: 30px;

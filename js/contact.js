@@ -1,5 +1,7 @@
 $( document ).ready(function() {
     console.log( "ready!" );
+
+
 });
 function initMap() {
         var mapDiv = document.getElementById('map');

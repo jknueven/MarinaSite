@@ -9,7 +9,10 @@ $quadraryColor:#A7DBD8;
 
 @import "blog";
 
-
+.container {
+	width:990px;
+	//background-color:$tertiaryColor;
+}
 
 .Header {
 	display:inline-block;
@@ -38,12 +41,13 @@ $quadraryColor:#A7DBD8;
 	}
 }
 
-.container {
-	//padding-left:20px;
-}
 
 .topContent {
-	margin-left:140px;
+	//margin-left:140px;
+	.slider {
+		margin-left:140px;
+	}
+
 }
 
 .logo {
@@ -77,14 +81,28 @@ $quadraryColor:#A7DBD8;
 .middleContent {
 	//background-color:$secondaryColor;
 	width:100%;
-	margin-top:50px;
+	margin-top:80px;
+
 }
+
 
 .slider {
-	margin-top:60px;
-	
+	//border:2px solid red;
+	height:400px;
+	margin-top:40px;
+
+	img {
+		height:400px;
+	}
+.bx-viewport {
+	height:400px;
+	style:none;
 }
 
+}
+	.bx-wrapper {
+		height:400px;
+	}
 
 .infoBox {
 	margin-top:35px;
@@ -133,15 +151,16 @@ $quadraryColor:#A7DBD8;
 footer {
 	text-align:center;
 	border-top:2px solid $secondaryColor;
+	height:200px;
 
 	.bufferFoot{
 		padding-top: 10px; 
 		padding-bottom:30px;
-		height:80%;
+		//height:80%;
 		width:auto;
 	}
 	.left {
-		height:80%;
+		//height:80%;
 		margin-top: 20px;
 		h3 {
 			color:$secondaryColor;
@@ -327,6 +346,57 @@ form {
 #blogContent {
   height: 200px;
   width:800px;
+}
+
+.widgetWe {
+	display: block;
+	margin:auto;
+	float:right;
+	margin-right:90px;
+	margin-top:10px;
+}
+
+.aw-widget-content {
+	height:150px;
+	width:180px;
+}
+
+.aw-temp-time-desc {
+	margin-left:30px;
+}
+
+#link_get_widget {
+	display:none;
+}
+
+.aw-current-weather-inner {
+	height:120px;
+	width:120px;
+	span {
+		display: none;
+	}
+	p {
+		visibility: hidden;
+	}
+
+}
+
+.aw-icon {
+	position:absolute;
+
+	left:-40px;
+}
+
+.aw-temperature-today {
+	visibility:visible;
+	position:absolute;
+	top:60px;
+	left:70px;
+
+}
+
+.aw-widget-current-inner {
+	width:120px;
 }
 
 .twitterIcon, .facebookIcon {

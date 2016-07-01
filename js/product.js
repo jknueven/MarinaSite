@@ -8,10 +8,11 @@ $.ajax({
 		{
 			var results = boats.boats;
 			results.forEach(function(boat,index){
-
+			var boatPrice = boat.price;
+			boatPrice = boatPrice.toFixed(2).replace(/(\d)(?=(\d{3})+\.)/g, "$1,");
 			var itr = index + 1;
 
-				$(".Products").append("<div class='col-lg-6 boat"+itr+"'><div class='wrapper"+itr+"'><img src='"+boat.picture+"'><ul><li><h4> "+boat.name+"</h4></li><li><h5>Description: </h5><p>"+boat.description+"</p></li><li><h5>Price: </h5><p>$ "+boat.price+"</p></li></ul></div></div>");
+				$(".Products").append("<div class='col-lg-6 boat"+itr+"'><div class='wrapper"+itr+"'><img src='"+boat.picture+"'><ul><li><h4> "+boat.name+"</h4></li><li><h5>Description: </h5><p>"+boat.description+"</p></li><li><h5>Price: </h5><p>$ "+boatPrice+"</p></li></ul></div></div>");
 
 			});
 		}
