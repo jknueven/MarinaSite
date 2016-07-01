@@ -125,7 +125,7 @@ label {
     color: white;
     opacity: 0.5;
     float: right;
-    margin-top: -50px; }
+    margin-top: -45px; }
 
 .top {
   padding-top: 10px; }
@@ -136,6 +136,17 @@ label {
 
 .blog {
   color: white; }
+
+.twitterIcon, .facebookIcon {
+  height: 30px;
+  width: 30px;
+  float: right;
+  margin-top: -50px;
+  margin-right: 145px;
+  margin-left: 10px; }
+
+.twitterIcon {
+  margin-right: 110px; }
 
 .Header {
   display: inline-block;
@@ -199,8 +210,7 @@ footer {
   footer .bufferFoot {
     padding-top: 10px;
     padding-bottom: 30px;
-    height: 80%;
-    width:90%; }
+    height: 80%; }
   footer .left {
     height: 80%;
     margin-top: 50px; }
@@ -246,6 +256,10 @@ footer {
   .blogWire .header {
     margin-top: -10px;
     display: inline-block; }
+    .blogWire .header a {
+      float: right;
+      margin-top: -50px;
+      margin-right: 100px; }
     .blogWire .header h3 {
       border-bottom: 1px solid white;
       padding-bottom: 15px;
@@ -259,40 +273,6 @@ footer {
     padding-top: 10px; }
     .blogWire .top .bottom {
       margin-top: 15px;
-<<<<<<< HEAD
-      margin-left: 5px; }
-
-#map {
-  height: 400px;
-  width: 600px; }
-
-.Dallas {
-  font-size: 18px;
-  text-align: center;
-  margin-top: 80px; }
-
-.Contact {
-  margin-top: 20px;
-  margin-bottom: 20px; }
-
-form {
-  text-align: center; }
-
-#blogTitle {
-  width: 400px; }
-
-#blogContent {
-  height: 200px;
-  width: 800px; }
-
-.twitterIcon {
-  height: 30px;
-  width: 30px; }
-
-.facebookIcon {
-  height: 30px;
-  width: 30px; }
-=======
       margin-left: 5px;
       color: white; }
   .blogWire .blog {
@@ -314,4 +294,9 @@ form {
   .blogWire #blogContent {
     height: 200px;
     width: 800px; }
->>>>>>> e07c9028d72a3da99c2be26f1173cab2e71fb687
+  .blogWire .twitterIcon {
+    height: 30px;
+    width: 30px; }
+  .blogWire .facebookIcon {
+    height: 30px;
+    width: 30px; }

@@ -47,6 +47,8 @@ label {
 .header {
 	margin-top:-10px;
 	display: inline-block;
+
+
 	
 	h3 {
 		border-bottom:1px solid white;
@@ -58,7 +60,7 @@ label {
    		color: white;
    		opacity: 0.5;
    		float:right;
-   		margin-top: -50px;
+   		margin-top: -45px;
    	}
 }
 
@@ -75,4 +77,19 @@ label {
 .blog {
 
 	color:white;
+}
+
+
+
+.twitterIcon, .facebookIcon {
+  height:30px;
+  width:30px;
+  float:right;
+  margin-top: -50px;
+  margin-right: 145px;
+  margin-left: 10px;
+}
+
+.twitterIcon {
+	margin-right:110px;
 }

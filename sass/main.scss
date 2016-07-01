@@ -154,6 +154,12 @@ footer {
 .header {
 	margin-top:-10px;
 	display: inline-block;
+
+	a {
+		float:right;
+		margin-top: -50px;
+		margin-right: 100px;
+	}
 	
 	h3 {
 		border-bottom:1px solid white;
@@ -210,7 +216,7 @@ form {
   height: 200px;
   width:800px;
 }
-<<<<<<< HEAD
+
 .twitterIcon {
   height:30px;
   width:30px;
@@ -218,6 +224,5 @@ form {
 .facebookIcon {
   height:30px;
   width:30px;
-=======
->>>>>>> e07c9028d72a3da99c2be26f1173cab2e71fb687
+}
 }
