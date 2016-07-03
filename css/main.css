@@ -407,6 +407,9 @@ footer {
   margin-bottom: 30px;
   margin-right: 90px; }
 
+a {
+  color: white; }
+
 .Dallas {
   font-size: 18px;
   text-align: center;
@@ -417,6 +420,8 @@ footer {
     color: #FA6900; }
   .Dallas p {
     font-size: 20px; }
+    .Dallas p a {
+      color: #69D2E7; }
   .Dallas h3 {
     font-size: 26px;
     margin-top: 10px; }
@@ -476,9 +481,6 @@ form {
 .twitterIcon, .facebookIcon {
   height: 30px;
   width: 30px; }
-
-a {
-  color: white; }
 
 @media only screen and (max-width: 990px) {
   .twitter, .infoBox, .slider {

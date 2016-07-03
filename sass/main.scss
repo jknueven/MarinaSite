@@ -317,6 +317,10 @@ footer {
   margin-right:90px;
 }
 
+a {
+	color:white;
+}
+
 .Dallas {
   font-size: 18px;
   text-align: center;
@@ -329,11 +333,15 @@ footer {
 	}
   p {
 	font-size:20px;
+	a {
+  	color: $primaryColor;
+  	}
   }
   h3 {
   	font-size: 26px;
   	margin-top:10px;
   }
+
 }
 
 .Contact {
@@ -409,9 +417,7 @@ form {
   width:30px;
   //margin-left: 30px;
 }
-a {
-	color:white;
-}
+
 
 @media only screen and (max-width: 990px) {
 	.twitter, .infoBox, .slider {
