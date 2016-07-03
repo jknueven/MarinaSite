@@ -290,13 +290,15 @@ label {
 
 footer {
   text-align: center;
-  border-top: 2px solid #FA6900;
-  height: 200px; }
+  height: 150px;
+  margin-top: 50px;
+  border-top: 2px solid #FA6900; }
   footer .bufferFoot {
     padding-top: 10px;
     padding-bottom: 30px;
-    width: auto; }
+    width: 100%; }
   footer .left {
+    height: 80%;
     margin-top: 20px; }
     footer .left h3 {
       color: #FA6900; }
@@ -338,7 +340,7 @@ footer {
       margin-right: 0px; }
 
 .blogcontent {
-  margin-left: 90px; }
+  margin-left: 50px; }
 
 .blogButton {
   position: absolute;
@@ -478,3 +480,29 @@ form {
 
 a {
   color: white; }
+
+@media only screen and (max-width: 990px) {
+  .twitter, .infoBox, .slider {
+    margin-left: 0px;
+    margin-top: 30px; }
+  .Header {
+    height: 140px; }
+  .links ul {
+    top: -70px; }
+  .topContent .slider {
+    margin-left: 0px; }
+  .infoBox .purchase {
+    position: relative;
+    float: left;
+    margin-left: 400px; }
+  .infoBox p {
+    text-align: center; }
+  .blogWire {
+    margin-top: 50px;
+    margin-left: -50px; }
+  .blogContent .header {
+    width: 810px; }
+  .blogButton {
+    right: 40px; }
+  .twitter-timeline {
+    margin-right: 280px; } }

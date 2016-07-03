@@ -30,8 +30,8 @@ $(".blogForm").on("submit", function(e){
 		}
 	});
 		/*then clear the text fields.*/
-		$(".blogTitle").val(" ");
-		$(".blogContent").val(" "); 
+		$(".blogTitle").html(" ");
+		$(".blogContent").html(" "); 
 	
 });
 });

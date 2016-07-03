@@ -148,17 +148,19 @@ $quadraryColor:#A7DBD8;
 
 footer {
 	text-align:center;
+	height:150px;
+	margin-top:50px;
 	border-top:2px solid $secondaryColor;
-	height:200px;
 
 	.bufferFoot{
 		padding-top: 10px; 
 		padding-bottom:30px;
 		//height:80%;
-		width:auto;
+		width:100%;
+		
 	}
 	.left {
-		//height:80%;
+		height:80%;
 		margin-top: 20px;
 		h3 {
 			color:$secondaryColor;
@@ -222,7 +224,7 @@ footer {
 
 
 .blogcontent {
-	margin-left:90px;
+	margin-left:50px;
 
 }
 .blogButton {
@@ -409,4 +411,54 @@ form {
 }
 a {
 	color:white;
+}
+
+@media only screen and (max-width: 990px) {
+	.twitter, .infoBox, .slider {
+		margin-left: 0px;
+		margin-top: 30px;
+	}
+
+	.Header {
+		height: 140px;
+	}
+
+	.links {
+		ul {
+			top:-70px;
+		}
+	}
+
+	.topContent .slider {
+		margin-left: 0px;
+	}
+
+	.infoBox {
+		.purchase {
+			position: relative;
+			float:left;
+			margin-left: 400px;
+		}
+		p {
+			text-align: center;
+		}
+	}
+
+	.blogWire {
+		margin-top: 50px;
+		margin-left: -50px;
+	}
+
+	.blogContent .header {
+		width: 810px;
+	}
+
+	.blogButton {
+		right:40px;
+	}
+
+	.twitter-timeline {
+		margin-right: 280px;
+
+	}
 }
