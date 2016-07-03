@@ -330,7 +330,8 @@ footer {
     footer .right p {
       font-size: 18px; }
     footer .right .socialFoot {
-      margin-right: 190px; }
+      margin: auto;
+      display: inline-block; }
     footer .right .twitterIcon, footer .right .facebookIcon {
       margin-top: 0px;
       margin-left: 5px;
