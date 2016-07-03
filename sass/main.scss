@@ -9,6 +9,7 @@ $quadraryColor:#A7DBD8;
 
 @import "blog";
 
+
 .container {
 	width:990px;
 	//background-color:$tertiaryColor;
@@ -18,7 +19,7 @@ $quadraryColor:#A7DBD8;
 	display:inline-block;
 	width:100%;
 	margin:0;
-	border-bottom:1px dotted $secondaryColor;
+	border-bottom:1px solid $secondaryColor;
 	ul {
 		position: relative;
 		top:90px;
@@ -27,8 +28,8 @@ $quadraryColor:#A7DBD8;
 
 		li{
 			display: inline-block;
-			font-size: 26px;
-			margin-left: 48px;
+			font-size: 24px;
+			margin-left: 40px;
 			margin-bottom: 0px;
 			font-family: "Oswald", sans-serif;
 			text-transform: uppercase;
@@ -97,6 +98,7 @@ $quadraryColor:#A7DBD8;
 .bx-viewport {
 	height:400px;
 	style:none;
+
 }
 
 }
@@ -110,12 +112,12 @@ $quadraryColor:#A7DBD8;
 	text-align:center;
 
 	h1{
-		font-size: 48px;
+		font-size: 38px;
 		color: $secondaryColor;
 	}
 
 	p {
-		font-size: 20px;
+		font-size: 18px;
 		text-align: right;
 		margin-top:-10px;
 	}
@@ -125,15 +127,11 @@ $quadraryColor:#A7DBD8;
 		//width: 100px;
 		float:right;
 		border-radius:3px;
-		background-color:$quadraryColor;
+		background-color:$primaryColor;
 
 		h3 {
 			font-size: 16px;
-			margin-top: 1px;
-		}
-
-		a {
-			color: white;
+			margin-top: 3px;
 		}
 
 	}
@@ -143,7 +141,7 @@ $quadraryColor:#A7DBD8;
 
 .twitter-timeline {
 	float:right;
-	margin-right: 170px;
+	margin-right: 100px;
 
 
 }
@@ -169,6 +167,9 @@ footer {
 			font-size: 18px;
 			color:darken($primaryColor,20);
 		}
+		a{
+			color:$secondaryColor;
+		}
 	}
 
 	.center {
@@ -183,7 +184,7 @@ footer {
 			font-size: 40px; 
 			//font-family: "Oswald", sans-serif;
 			margin-top: 60px;
-			margin-left: 130px;
+			margin-left: 30px;
 		}
 		.subfont {
 			font-size:63px;
@@ -227,12 +228,12 @@ footer {
 .blogButton {
 	position:absolute;
 	bottom:-20px;
-	right:40px;
+	right:53px;
 	height:40px;
-	background-color:$quadraryColor;
+	background-color:$primaryColor;
 	//height:40px;
 	//border-radius:5px;
-	}
+}
 
 .blogWire{
 	//display:inline-block;
@@ -244,7 +245,7 @@ footer {
 	width:92%;
 	border-radius: 5px;
 	margin-top: 10px;
-	margin-left:50px;
+	margin-left:10px;
 	margin-bottom: 30px;
 }
 
@@ -354,13 +355,13 @@ form {
 	display: block;
 	margin:auto;
 	float:right;
-	margin-right:90px;
-	margin-top:10px;
+	margin-right:10px;
+	margin-top:20px;
 }
 
 .aw-widget-content {
-	height:150px;
-	width:180px;
+	height:110px;
+	width:120px;
 }
 
 .aw-temp-time-desc {
@@ -372,7 +373,7 @@ form {
 }
 
 .aw-current-weather-inner {
-	height:120px;
+	height:100px;
 	width:120px;
 	span {
 		display: none;
@@ -386,23 +387,26 @@ form {
 .aw-icon {
 	position:absolute;
 
-	left:-40px;
+	//left:-40px;
 }
 
 .aw-temperature-today {
 	visibility:visible;
 	position:absolute;
-	top:60px;
-	left:70px;
-
+	top:-35px;
+	left:35px;
+	//font-size:100px;
 }
 
 .aw-widget-current-inner {
-	width:120px;
+	width:100px;
 }
 
 .twitterIcon, .facebookIcon {
   height:30px;
   width:30px;
   //margin-left: 30px;
+}
+a {
+	color:white;
 }

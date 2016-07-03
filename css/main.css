@@ -209,7 +209,7 @@ label {
   display: inline-block;
   width: 100%;
   margin: 0;
-  border-bottom: 1px dotted #FA6900; }
+  border-bottom: 1px solid #FA6900; }
   .Header ul {
     position: relative;
     top: 90px;
@@ -217,8 +217,8 @@ label {
     float: right; }
     .Header ul li {
       display: inline-block;
-      font-size: 26px;
-      margin-left: 48px;
+      font-size: 24px;
+      margin-left: 40px;
       margin-bottom: 0px;
       font-family: "Oswald", sans-serif;
       text-transform: uppercase; }
@@ -269,26 +269,24 @@ label {
   margin-left: 50px;
   text-align: center; }
   .infoBox h1 {
-    font-size: 48px;
+    font-size: 38px;
     color: #FA6900; }
   .infoBox p {
-    font-size: 20px;
+    font-size: 18px;
     text-align: right;
     margin-top: -10px; }
   .infoBox .purchase {
     height: 40px;
     float: right;
     border-radius: 3px;
-    background-color: #A7DBD8; }
+    background-color: #69D2E7; }
     .infoBox .purchase h3 {
       font-size: 16px;
-      margin-top: 1px; }
-    .infoBox .purchase a {
-      color: white; }
+      margin-top: 3px; }
 
 .twitter-timeline {
   float: right;
-  margin-right: 170px; }
+  margin-right: 100px; }
 
 footer {
   text-align: center;
@@ -305,6 +303,8 @@ footer {
     footer .left p {
       font-size: 18px;
       color: #20adca; }
+    footer .left a {
+      color: #FA6900; }
   footer .center {
     border-left: 2px dotted grey;
     border-right: 2px dotted grey;
@@ -315,7 +315,7 @@ footer {
     footer .center .font {
       font-size: 40px;
       margin-top: 60px;
-      margin-left: 130px; }
+      margin-left: 30px; }
     footer .center .subfont {
       font-size: 63px;
       color: #69D2E7;
@@ -343,9 +343,9 @@ footer {
 .blogButton {
   position: absolute;
   bottom: -20px;
-  right: 40px;
+  right: 53px;
   height: 40px;
-  background-color: #A7DBD8; }
+  background-color: #69D2E7; }
 
 .content {
   background-color: #ff862e;
@@ -353,7 +353,7 @@ footer {
   width: 92%;
   border-radius: 5px;
   margin-top: 10px;
-  margin-left: 50px;
+  margin-left: 10px;
   margin-bottom: 30px; }
 
 .notch {
@@ -439,12 +439,12 @@ form {
   display: block;
   margin: auto;
   float: right;
-  margin-right: 90px;
-  margin-top: 10px; }
+  margin-right: 10px;
+  margin-top: 20px; }
 
 .aw-widget-content {
-  height: 150px;
-  width: 180px; }
+  height: 110px;
+  width: 120px; }
 
 .aw-temp-time-desc {
   margin-left: 30px; }
@@ -453,7 +453,7 @@ form {
   display: none; }
 
 .aw-current-weather-inner {
-  height: 120px;
+  height: 100px;
   width: 120px; }
   .aw-current-weather-inner span {
     display: none; }
@@ -461,18 +461,20 @@ form {
     visibility: hidden; }
 
 .aw-icon {
-  position: absolute;
-  left: -40px; }
+  position: absolute; }
 
 .aw-temperature-today {
   visibility: visible;
   position: absolute;
-  top: 60px;
-  left: 70px; }
+  top: -35px;
+  left: 35px; }
 
 .aw-widget-current-inner {
-  width: 120px; }
+  width: 100px; }
 
 .twitterIcon, .facebookIcon {
   height: 30px;
   width: 30px; }
+
+a {
+  color: white; }
