@@ -1,41 +1,42 @@
 .history {
 	margin-top:20px;
-	margin-left:160px;
+	margin-left:50px;
 
 	.historyImg img {
-		height: 400px;
+		height: 350px;
 		width: auto;
 		border-radius: 3px;
-		margin-top: 20px;
-		margin-left: 80px;
+		margin-top: 70px;
+		margin-left: 10px;
 	}
 	p {
-		font-size: 23px;
+		font-size: 20px;
 	}
 }
 
 .ceo {
-	margin-top:50px;
+	margin-top:60px;
 	margin-bottom:80px;
 
 	.ceoImg img{
 		float:right;
 		height: 250px;
 		width: auto;
-		margin-right: 150px;
-		margin-top: 20px;
+		margin-right: 100px;
+		margin-top: 50px;
 		border:3px dashed $secondaryColor;
 		border-radius: 50%;
 	}
 	.ceoBio {
-		margin-left: -25px;
+		//margin-left: 25px;
 		text-align: center;
 		p {
-			text-align: left;
+			text-align: right;
 			font-size: 23px;
 			width: 90%;
 		}
 		h2 {
+			//margin-left: -75px;
 			text-align:left;
 		}
 	}
@@ -120,4 +121,65 @@
 		font-size: 23px;
 	}
 	
+}
+
+@media only screen and (max-width: 990px) {
+	.history {
+		margin-left: 0px;
+	}
+	.ceo, .ceoBio {
+		margin-left: 0px;
+	}
+
+	.ceoBio h2, .ceoBio p{
+		margin-left: 20px;
+	}
+}
+
+@media only screen and (max-width: 770px) {
+	.history {
+		margin-left: 0px;
+	}
+	.ceo, .ceoBio {
+		margin-left: 0px;
+	}
+
+	.ceoBio h2, .ceoBio p{
+		margin-left: 30px;
+	}
+}
+
+@media only screen and (max-width: 370px){
+	.history {
+		margin-left: 0px;
+		p{
+			font-size: 16px;
+		}
+	}
+	.ceo{
+		margin-left: 0px;
+		.ceoBio{
+			margin-left: 0px;
+			p{
+				font-size: 16px;
+			}
+		}
+	}
+
+	.collab, .Companies {
+		ul {
+			padding-left:0px;
+		}
+	}
+
+	.collab {
+		p {
+			font-size: 16px;
+		}
+	}
+	.Companies {
+		p{
+			font-size: 16px;
+		}
+	}
 }
