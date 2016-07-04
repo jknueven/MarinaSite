@@ -10,8 +10,8 @@ $quadraryColor:#A7DBD8;
 @import "blog";
 
 
-.container {
-	width:990px;
+.container-fluid {
+	width:100%;
 	//background-color:$tertiaryColor;
 }
 
@@ -45,8 +45,8 @@ $quadraryColor:#A7DBD8;
 
 .topContent {
 	//margin-left:140px;
-	.slider {
-		margin-left:140px;
+	.imgSlider {
+		
 	}
 
 }
@@ -92,23 +92,24 @@ $quadraryColor:#A7DBD8;
 	height:400px;
 	margin-top:40px;
 
+
 	img {
 		height:400px;
+	
 	}
 .bx-viewport {
 	height:400px;
 	style:none;
 
+	}
 }
-
-}
-	.bx-wrapper {
-		height:400px;
+.bx-wrapper {
+	height:400px;
 	}
 
 .infoBox {
 	margin-top:35px;
-	margin-left:50px;
+	float:right;
 	text-align:center;
 
 	h1{
@@ -224,13 +225,13 @@ footer {
 
 
 .blogcontent {
-	margin-left:50px;
+	margin-left:-20px;
 
 }
 .blogButton {
 	position:absolute;
 	bottom:-20px;
-	right:53px;
+	right:90px;
 	height:40px;
 	background-color:$primaryColor;
 	//height:40px;
@@ -455,16 +456,93 @@ form {
 		margin-left: -50px;
 	}
 
-	.blogContent .header {
-		width: 810px;
+	.header {
+		width: 800px;
+	}
+
+	.blogWire {
+		margin-left: 30px;
 	}
 
 	.blogButton {
-		right:40px;
+		right:110px;
 	}
 
 	.twitter-timeline {
 		margin-right: 280px;
 
 	}
+}
+
+@media only screen and (max-width:770px) {
+	.Header {
+		ul{
+			li {
+			font-size: 20px;
+			margin-left: 10px;
+			}
+		}
+		
+	}
+	.purchase {
+		position: relative;
+		margin-left: 0px;
+	}
+	.header {
+		width: 600px;
+	}
+	#twitter-timeline {
+		float:right;
+		margin: 0px;
+	}
+}
+
+@media only screen and (max-width:360px) {
+	.Header {
+		ul{
+			li {
+			font-size: 10px;
+			margin-left: 3px;
+			margin-top: 60px;
+			}
+		}
+		
+	}
+	.logo {
+		.font{
+			h2 {
+			font-size: 15px;
+			margin-top: 20px;
+			margin-left: -12px;
+		}
+		.subfont {
+			font-size: 30px;
+			margin-top: -16px;
+		}
+
+		}
+		img {
+			margin-left: 93px;
+			margin-top: -90px;
+			height:80px;
+		}
+	}
+
+	.infoBox {
+		margin-left: 230px;
+		h1 {
+			font-size: 30px;
+			width: 100%;
+			//margin-right: -230px;
+		}
+		p{
+			font-size: 12px;
+			width: 100%;
+			//margin-right: -230px;
+		}
+		.purchase {
+		margin-left: 60px;
+	}
+	}
+
 }

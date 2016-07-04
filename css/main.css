@@ -202,8 +202,8 @@ label {
 .twitterIcon {
   margin-right: 110px; }
 
-.container {
-  width: 990px; }
+.container-fluid {
+  width: 100%; }
 
 .Header {
   display: inline-block;
@@ -224,9 +224,6 @@ label {
       text-transform: uppercase; }
       .Header ul li a {
         color: #FA6900; }
-
-.topContent .slider {
-  margin-left: 140px; }
 
 .logo {
   margin-top: 30px;
@@ -266,7 +263,7 @@ label {
 
 .infoBox {
   margin-top: 35px;
-  margin-left: 50px;
+  float: right;
   text-align: center; }
   .infoBox h1 {
     font-size: 38px;
@@ -339,12 +336,12 @@ footer {
       margin-right: 0px; }
 
 .blogcontent {
-  margin-left: 50px; }
+  margin-left: -20px; }
 
 .blogButton {
   position: absolute;
   bottom: -20px;
-  right: 53px;
+  right: 90px;
   height: 40px;
   background-color: #69D2E7; }
 
@@ -501,9 +498,51 @@ form {
   .blogWire {
     margin-top: 50px;
     margin-left: -50px; }
-  .blogContent .header {
-    width: 810px; }
+  .header {
+    width: 800px; }
+  .blogWire {
+    margin-left: 30px; }
   .blogButton {
-    right: 40px; }
+    right: 110px; }
   .twitter-timeline {
     margin-right: 280px; } }
+
+@media only screen and (max-width: 770px) {
+  .Header ul li {
+    font-size: 20px;
+    margin-left: 10px; }
+  .purchase {
+    position: relative;
+    margin-left: 0px; }
+  .header {
+    width: 600px; }
+  #twitter-timeline {
+    float: right;
+    margin: 0px; } }
+
+@media only screen and (max-width: 360px) {
+  .Header ul li {
+    font-size: 10px;
+    margin-left: 3px;
+    margin-top: 60px; }
+  .logo .font h2 {
+    font-size: 15px;
+    margin-top: 20px;
+    margin-left: -12px; }
+  .logo .font .subfont {
+    font-size: 30px;
+    margin-top: -16px; }
+  .logo img {
+    margin-left: 93px;
+    margin-top: -90px;
+    height: 80px; }
+  .infoBox {
+    margin-left: 230px; }
+    .infoBox h1 {
+      font-size: 30px;
+      width: 100%; }
+    .infoBox p {
+      font-size: 12px;
+      width: 100%; }
+    .infoBox .purchase {
+      margin-left: 60px; } }
