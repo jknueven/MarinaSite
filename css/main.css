@@ -163,6 +163,17 @@ h2 {
     .Products ul li h5 {
       font-size: 26px; }
 
+@media only screen and (max-width: 370px) {
+  .Products img {
+    height: 130px; }
+  .Products ul li p {
+    font-size: 14px; }
+  .Products ul li h4 {
+    font-size: 20px;
+    color: #69D2E7; }
+  .Products ul li h5 {
+    font-size: 18px; } }
+
 label {
   margin-top: 10px;
   color: #69D2E7; }

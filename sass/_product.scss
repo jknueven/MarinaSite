@@ -60,3 +60,29 @@ h2 {
 .Companies {
 	
 }
+
+@media only screen and (max-width: 370px) {
+	.Products {
+	img {
+		height: 130px;
+		
+		}
+		ul {
+		
+		  li{
+			
+			p {
+			font-size:14px;
+			//width:90%;
+			}
+			h4 {
+			font-size:20px;
+			color:$primaryColor;
+			}
+			h5 {
+			font-size: 18px;
+			}
+	  	  }
+		}
+	}
+}
