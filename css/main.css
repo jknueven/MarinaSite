@@ -523,6 +523,13 @@ form {
   height: 30px;
   width: 30px; }
 
+@media only screen and (max-width: 1200px) {
+  .links ul {
+    margin-right: -70px;
+    top: -60px; }
+    .links ul li {
+      margin-left: 18px; } }
+
 @media only screen and (max-width: 990px) {
   .twitter, .infoBox, .slider {
     margin-left: 0px;
