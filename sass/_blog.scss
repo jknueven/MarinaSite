@@ -22,6 +22,10 @@ label {
 	margin-top:5px;
 }
 
+.Blogs {
+	margin:0px;
+}
+
 .contentB{
 	background-color:lighten($secondaryColor,10);
 	height:250px;
@@ -92,4 +96,10 @@ label {
 
 .twitterIcon {
 	margin-right:110px;
+}
+
+@media only screen and (max-width: 360) {
+		.Blogs h2{
+			font-size: 20px;
+		}
 }

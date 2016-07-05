@@ -192,6 +192,9 @@ label {
   width: 50%;
   margin-top: 5px; }
 
+.Blogs {
+  margin: 0px; }
+
 .contentB {
   background-color: #ff862e;
   height: 250px;
@@ -245,6 +248,10 @@ label {
 
 .twitterIcon {
   margin-right: 110px; }
+
+@media only screen and (max-width: 360) {
+  .Blogs h2 {
+    font-size: 20px; } }
 
 .container-fluid {
   width: 100%; }
@@ -433,7 +440,7 @@ footer {
 .emailForm {
   margin-top: 30px;
   margin-bottom: 20px;
-  margin-left: -50px; }
+  margin-left: 0px; }
   .emailForm textarea {
     width: 300px;
     height: 80px; }
@@ -442,11 +449,11 @@ footer {
   color: white; }
 
 #map {
-  height: 400px;
-  width: 800px;
-  margin-top: 25px;
+  height: 350px;
+  width: 500px;
+  margin-top: 60px;
   margin-bottom: 30px;
-  margin-right: 90px; }
+  margin-left: 40px; }
 
 a {
   color: white; }
@@ -470,7 +477,7 @@ a {
 .Contact {
   margin-top: 20px;
   margin-bottom: 20px;
-  margin-left: 70px; }
+  margin-left: 0px; }
 
 form {
   text-align: center; }
@@ -537,7 +544,10 @@ form {
   .Header {
     height: 140px; }
   .links ul {
-    top: -70px; }
+    top: -70px;
+    margin-right: 20px; }
+    .links ul li {
+      margin-left: 10px; }
   .topContent .slider {
     margin-left: 0px; }
   .infoBox .purchase {
